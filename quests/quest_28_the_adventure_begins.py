@@ -2,9 +2,9 @@
 # Author : @gunnogere
 # 25th February 2026
 
-
 def end_game(previous_function):
-    print("\nWhat would you like to do?")
+    print("_________________________________________")
+    print("What would you like to do?")
     print("1. Choose a different option from here")
     print("2. Restart the whole game")
     print("3. Exit")
@@ -24,7 +24,7 @@ def end_game(previous_function):
 
 def start():
     print("\n=== Quest 28: The Adventure Begins - Group 4 ===") 
-    print("\nWelcome to Life Simulator.")
+    print("\nWelcome to TWO THINGS INVOLVED GAME")
     print("In this life, you are either:")
     print("1. Woman")
     print("2. Man")
@@ -32,8 +32,8 @@ def start():
     choice = input("Enter 1 or 2: ")
 
     if choice == "1":
-        print("\n🕊️ You live a peaceful life.")
-        print("✅ Safe. End Game.")
+        print(">> You live a peaceful life.")
+        print(">> You are Safe. ")
         end_game(start)
     elif choice == "2":
         man_path()
@@ -43,7 +43,8 @@ def start():
 
 
 def man_path():
-    print("\n👨 You are a man.")
+    
+    print("\n******   You are a man.")
     print("Choose your career path:")
     print("1. Government")
     print("2. Military")
@@ -51,8 +52,8 @@ def man_path():
     choice = input("Enter 1 or 2: ")
 
     if choice == "1":
-        print("\n🏢 You work safely in a government office.")
-        print("✅ Safe. End Game.")
+        print(">> You work safely in a government office.")
+        print(">> You are Safe. ")
         end_game(man_path)
     elif choice == "2":
         military_path()
@@ -61,17 +62,17 @@ def man_path():
         man_path()
 
 
-def military_path():
-    print("\n🎖️ You joined the military.")
+def military_path(): 
+    print("\n******   You joined the military.")
     print("Where are you stationed?")
     print("1. War Front")
     print("2. HQ Bunker")
     
     choice = input("Enter 1 or 2: ")
 
-    if choice == "2":
-        print("\n🛡️ You stay in the HQ bunker.")
-        print("✅ Safe. End Game.")
+    if choice == "2":        
+        print(">> You stay in the HQ bunker.")
+        print(">> You are Safe. ")
         end_game(military_path)
     elif choice == "1":
         war_front()
@@ -81,16 +82,16 @@ def military_path():
 
 
 def war_front():
-    print("\n⚔️ You are at the war front.")
+    print("\n******   You are at the war front.")
     print("What happens?")
-    print("1. You survive the battle")
+    print("1. You survived the battle")
     print("2. You fall in battle")
     
     choice = input("Enter 1 or 2: ")
 
-    if choice == "1":
-        print("\n🏆 You survive the battle.")
-        print("✅ Safe. End Game.")
+    if choice == "1":         
+        print(">>You survived the battle.")
+        print(">> You are Safe. ")
         end_game(war_front)
     elif choice == "2":
         afterlife()
@@ -100,16 +101,17 @@ def war_front():
 
 
 def afterlife():
-    print("\n☠️ You were defeated in battle.")
+    
+    print("\n******   You were defeated in battle.")
     print("Where are you laid to rest?")
     print("1. Back Home")
     print("2. In the Forest")
     
     choice = input("Enter 1 or 2: ")
 
-    if choice == "1":
-        print("\n🏡 You are remembered peacefully back home.")
-        print("✅ Safe. End Game.")
+    if choice == "1":        
+        print(">> You are remembered peacefully back home.")
+        print(">> You are Safe. ")
         end_game(afterlife)
     elif choice == "2":
         forest_cycle()
@@ -118,18 +120,18 @@ def afterlife():
         afterlife()
 
 
-def forest_cycle():
-    print("\n🌲 Nature takes its course.")
+def forest_cycle(): 
+    print("\n******   Nature takes its course.")
     print("The forest thrives.")
-    print("What product is made from the harvested tree?")
+    print("What product is made from the harvested tree timber?")
     print("1. Books")
     print("2. Tissue Paper")
     
     choice = input("Enter 1 or 2: ")
 
-    if choice == "1":
-        print("\n📚 You become part of knowledge and stories.")
-        print("✅ Safe. End Game.")
+    if choice == "1":        
+        print(">> You become part of knowledge and stories.")
+        print(">> You are Safe. ")
         end_game(forest_cycle)
     elif choice == "2":
         tissue_path()
@@ -138,8 +140,8 @@ def forest_cycle():
         forest_cycle()
 
 
-def tissue_path():
-    print("\n🧻 You become soft tissue paper.")
+def tissue_path():  
+    print("\n******   You become soft tissue paper.")
     print("Who uses it?")
     print("1. A Man")
     print("2. A Woman")
@@ -147,8 +149,8 @@ def tissue_path():
     choice = input("Enter 1 or 2: ")
 
     if choice == "1":
-        print("\n🙂 Routine day. Nothing dramatic.")
-        print("✅ Safe. End Game.")
+        print(">> Routine day. Nothing dramatic.")
+        print(">> You are Safe. ")
         end_game(tissue_path)
     elif choice == "2":
         final_choice()
@@ -157,20 +159,22 @@ def tissue_path():
         tissue_path()
 
 
-def final_choice():
-    print("\n⚠️ Final twist of fate.")
-    print("1. Used from the back")
-    print("2. Used from the front")
+def final_choice(): 
+    print("\n******   Final twist of fate.")
+    print("1. As tissue paper, you are used from the back")
+    print("2. As tissue paper, you are used from the front")
     
     choice = input("Enter 1 or 2: ")
 
-    if choice == "1":
-        print("\n😌 Peaceful conclusion.")
-        print("✅ Safe. End Game.")
+    if choice == "1":        
+        print(">> Nothing dramatic.")
+        print(">> You are Safe. ")
         end_game(final_choice)
-    elif choice == "2":
-        print("\n💀 Destiny had other plans.")
-        print("You Died. Game Over.") 
+    elif choice == "2": 
+        print(">>\n That's a win.") 
+        print(">> GAME OVER") 
+        print("*****************************************") 
+
     else:
         print("Invalid choice.")
         final_choice()
