@@ -19,7 +19,7 @@ def divide(a, b):
 
 
 # Main Program
-print("=== Simple Calculator ===")
+print("=== Simple Calculator - Group 4===")
 print("Choose an operation:")
 print("1. Add")
 print("2. Subtract")
