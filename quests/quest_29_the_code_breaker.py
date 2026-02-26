@@ -5,7 +5,7 @@
 secret_code = 42
 lives = 3
  
-print("=== CODE BREAKER - Group 4  ===") 
+print("=== Code Breaker - Group 4  ===") 
 print("INSTRUCTIONS:")
 print("You have 3 lives (3 chances) to guess the secret code.")
 print("Hint: The secret code is a 2-digit number.")
