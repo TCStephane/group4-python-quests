@@ -1,6 +1,6 @@
 
 
-# Python Quests – Group {Your Group Number}
+# Python Quests – Group 4
 
 This repository contains our solutions to the **Python Quests**, designed to build foundational programming skills in Python. Below, each quest includes a **context** and an explanation of the **logical approach** used.
 
