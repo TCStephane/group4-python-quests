@@ -161,7 +161,7 @@ This repository contains our solutions to the **Python Quests**, designed to bui
 ### **Quest 28 – The Adventure Begins**
 
 * **Context:** Text-based adventure game.
-* **Logic:** Used functions for different locations. Decisions by user input led to multiple endings.
+* **Logic:** Used functions for different locations. Decisions by user input led to multiple endings. The game is called "Two things involved" borrowed from a comedy skit by Basket Mouth - https://youtu.be/-hweZsZqxwc"
 
 ### **Quest 29 – The Code Breaker**
 
